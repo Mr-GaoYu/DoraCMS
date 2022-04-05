@@ -1,0 +1,93 @@
+{
+  "id": "2697546",
+  "name": "chaotong",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2966203",
+      "name": "经验",
+      "font_class": "jingyan",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "3762534",
+      "name": "目标",
+      "font_class": "mubiao",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "6756283",
+      "name": "团队",
+      "font_class": "tuandui",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11141020",
+      "name": "切换小圆点",
+      "font_class": "qiehuanxiaoyuandian",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "7567773",
+      "name": "24gl-phoneLoudspeaker",
+      "font_class": "24gl-phoneLoudspeaker",
+      "unicode": "e94f",
+      "unicode_decimal": 59727
+    },
+    {
+      "icon_id": "12872681",
+      "name": "公共-邮箱",
+      "font_class": "gonggong-youxiang",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "1664362",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1239670",
+      "name": "social-qq",
+      "font_class": "social-qq",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "5427697",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "9307592",
+      "name": "钉钉",
+      "font_class": "dingding",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "9626879",
+      "name": "减号",
+      "font_class": "jianhao",
+      "unicode": "e870",
+      "unicode_decimal": 59504
+    },
+    {
+      "icon_id": "9626918",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e879",
+      "unicode_decimal": 59513
+    }
+  ]
+}
