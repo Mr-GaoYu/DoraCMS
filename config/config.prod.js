@@ -19,7 +19,7 @@ module.exports = (appInfo) => {
     // mongodb相关路径
     mongodb: {
       binPath: '/usr/local/mongodb/mongodb-linux-x86_64-ubuntu1604-4.0.0/bin/',
-      backUpPath: '/home/database/doracms/',,
+      backUpPath: '/home/database/doracms/',
     },
     // 静态目录
     static: {
@@ -29,7 +29,7 @@ module.exports = (appInfo) => {
         path.join(appInfo.baseDir, 'backstage/dist'),
         '/home/doraData/uploadFiles/static',
       ],
-      maxAge: 31536000,
+      maxAge: 0,
     },
     // 日志路径
     logger: {

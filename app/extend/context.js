@@ -8,6 +8,7 @@ module.exports = {
     const ctx = this;
     // console.log('--ctx.originalUrl--', ctx.originalUrl)
     const configs = await ctx.helper.reqJsonData('systemConfig/getConfig');
+    console.log(configs,22)
     const {
       siteName,
       siteDiscription,
@@ -16,6 +17,7 @@ module.exports = {
       ogTitle,
       siteLogo,
       siteDomain,
+      siteEmail
     } = configs || [];
 
     const { title, des, keywords } = ctx.params;
@@ -31,6 +33,7 @@ module.exports = {
       discription,
       key,
       altkey,
+      siteEmail,
       configs: configs || [],
       version: pkg.version,
       lang: ctx.session.locale,
@@ -273,6 +276,7 @@ module.exports = {
         pageData.pageInfo = pageInfo;
         pageData.author = author;
       }
+      console.log(pageData.site,11)
       pageData.ogData = {
         url: ogUrl,
         img: ogImg,

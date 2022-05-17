@@ -6,24 +6,18 @@
 
 
       <div class="items items-left ">
-        <a href="" title="华晶光电" rel="home" class="logo-link ts-logo logo-is-image">
+        <a href="" title="{{site.title}}" rel="home" class="logo-link ts-logo logo-is-image">
           <h1>
-
-
-            <img src="assets/img/12.jpg" class="logo-image logo-image-dark" alt="华晶光电"
-              srcset="assets/img/12.jpg ,assets/img/12.jpg 2x" width="272" height="50">
-            <img src="assets/img/12.jpg" class="logo-image" alt="华晶光电" srcset="assets/img/12.jpg ,assets/img/12.jpg 2x"
+            <img src="{{site.logo}}" class="logo-image logo-image-dark" alt="{{site.title}}" srcset="{{site.logo}}"
               width="272" height="50">
+            <img src="{{site.logo}}" class="logo-image" alt="{{site.title}}" srcset="{{site.logo}}" width="272"
+              height="50">
 
           </h1>
         </a>
       </div>
-
-
       <div class="items items-center empty">
       </div>
-
-
       <div class="items items-right ">
         <div class="nav-wrap">
           <nav class="navigation navigation-small nav-hov-a">
@@ -31,7 +25,8 @@
               <li id="menu-item-3537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3537"><a
                   href="#">
                   <i class="iconfont icon-gonggong-youxiang email-icon"></i>
-                  info@domain.com</a>
+
+                  {{site.email}}</a>
               </li>
               <li id="menu-item-3534" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3534"><a
                   target="_blank" rel="noopener" href="javascript:;">
@@ -42,25 +37,16 @@
         </div>
 
         <div class="spc-social spc-social-a smart-head-social">
-
-
-          <a href="#" class="link s-qq" target="_blank" rel="noopener">
-            <i class="icon tsi iconfont icon-social-qq"></i>
-
-            <span class="visuallyhidden">QQ</span>
+          {% if logined == undefined %}
+          <a href="/users/login" class="link s-qq" rel="nofollow">
+            <span>登录</span>
           </a>
 
 
-          <a href="#" class="link s-wechat" target="_blank" rel="noopener">
-            <i class="icon tsi iconfont icon-weixin"></i>
-            <span class="visuallyhidden">微信</span>
+          <a href="/users/reg" class="link s-wechat" rel="nofollow">
+            <span>注册</span>
           </a>
-
-
-          <a href="#" class="link s-ding" target="_blank" rel="noopener">
-            <i class="icon tsi iconfont icon-dingding"></i>
-            <span class="visuallyhidden">钉钉</span>
-          </a>
+          {% endif %}
 
 
         </div>
@@ -86,43 +72,7 @@
               </li>
               {% navtree 'default' %}
               {% for cate in navtree %}
-              {% if cate.children and cate.children.length>0 and cate.type == '2'%}
-              <li id="menu-item-2341"
-                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-10 menu-item-has-children item-mega-menu menu-item-2341">
-                <a href="research.html">{{cate.name}}</a>
-
-                <div class="sub-menu mega-menu mega-menu-a wrap">
-
-                  <section class="column recent-posts" data-columns="5">
-                    <div class="posts" data-id="10">
-                      <section class="block-wrap block-grid mb-none" data-id="5">
-                        <div class="block-content">
-                          <div class="loop loop-grid loop-grid-sm grid grid-5 md:grid-2 xs:grid-1">
-                            {% for sonNav in cate.children %}
-                            <article class="l-post  grid-sm-post grid-post">
-                              <div class="media">
-                                <a href="javascript:;" class="image-link media-ratio ratio-16-9"
-                                  title="{{sonNav.name}}"><span
-                                    data-bgsrc="https://smartmag.theme-sphere.com/health/wp-content/uploads/sites/22/2021/11/Depositphotos_442664362_XL-1-450x300.jpg"
-                                    class="img bg-cover wp-post-image attachment-bunyad-medium size-bunyad-medium lazyload"
-                                    data-bgset="https://smartmag.theme-sphere.com/health/wp-content/uploads/sites/22/2021/11/Depositphotos_442664362_XL-1-450x300.jpg 450w, https://smartmag.theme-sphere.com/health/wp-content/uploads/sites/22/2021/11/Depositphotos_442664362_XL-1-1024x683.jpg 1024w, https://smartmag.theme-sphere.com/health/wp-content/uploads/sites/22/2021/11/Depositphotos_442664362_XL-1-768x512.jpg 768w, https://smartmag.theme-sphere.com/health/wp-content/uploads/sites/22/2021/11/Depositphotos_442664362_XL-1-1536x1024.jpg 1536w, https://smartmag.theme-sphere.com/health/wp-content/uploads/sites/22/2021/11/Depositphotos_442664362_XL-1-2048x1366.jpg 2048w, https://smartmag.theme-sphere.com/health/wp-content/uploads/sites/22/2021/11/Depositphotos_442664362_XL-1-1200x800.jpg 1200w"
-                                    data-sizes="(max-width: 368px) 100vw, 368px"></span></a>
-                              </div>
-                              <div class="content">
-                                <div class="post-meta post-meta-a has-below">
-                                  <h2 class="is-title post-title"><a href="javascript:;">{{sonNav.name}}</a></h2>
-                                </div>
-                              </div>
-                            </article>
-                            {% endfor %}
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </section>
-                </div>
-              </li>
-              {% elseif cate.children and cate.children.length>0 and cate.type == '1'%}
+              {% if cate.children and cate.children.length>0 and cate.type == '1'%}
               <li id="menu-item-579"
                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-cat-1 menu-item-has-children item-mega-menu menu-item-579">
                 <a href="product.html">{{cate.name}}</a>
@@ -144,18 +94,19 @@
                       <section class="block-wrap block-grid mb-none" data-id="{{sonNav.sortId}}">
                         <div class="block-content">
                           <div class="loop loop-grid loop-grid-sm grid grid-4 md:grid-2 xs:grid-1">
-                            {% for item in sonNav.children %}
+
+                            {% news "pageSize"=6,"typeId"=sonNav.id %}
+                            {% for item in news %}
                             <article class="l-post  grid-sm-post grid-post">
                               <div class="media">
-                                <a href="javascript:;" class="image-link media-ratio ratio-16-9"
-                                  title="{{item.name}}"><span data-bgsrc="assets/img/01.jpg"
+                                <a href="{{item.url}}" class="image-link media-ratio ratio-16-9"
+                                  title="{{item.title}}"><span data-bgsrc="{{item.sImg}}"
                                     class="img bg-cover wp-post-image attachment-bunyad-medium size-bunyad-medium lazyload"
-                                    data-bgset="assets/img/01.jpg 450w, assets/img/01.jpg 1024w, assets/img/01.jpg 768w, assets/img/01.jpg 1536w, assets/img/01.jpg 2048w, assets/img/01.jpg 1200w"
-                                    data-sizes="(max-width: 368px) 100vw, 368px"></span></a>
+                                    data-bgset="{{item.sImg}}" data-sizes="(max-width: 368px) 100vw, 368px"></span></a>
                               </div>
                               <div class="content">
                                 <div class="post-meta post-meta-a has-below">
-                                  <h2 class="is-title post-title"><a href="javascript:;">{{item.name}}</a></h2>
+                                  <h2 class="is-title post-title"><a href="javascript:;">{{item.title}}</a></h2>
                                 </div>
                               </div>
                             </article>

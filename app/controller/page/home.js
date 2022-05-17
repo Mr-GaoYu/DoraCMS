@@ -15,6 +15,7 @@ class HomeController extends Controller {
   async getSiteInfo(ctx, appConfig) {
     const configs = await ctx.helper.reqJsonData('systemConfig/getConfig');
     const {
+      siteEmail,
       siteName,
       siteDiscription,
       siteKeywords,
@@ -35,6 +36,7 @@ class HomeController extends Controller {
       discription,
       key,
       altkey,
+      siteEmail,
       configs: configs || [],
       version: pkg.version,
       lang: ctx.session.locale,

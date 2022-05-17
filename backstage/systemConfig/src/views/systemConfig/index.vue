@@ -84,6 +84,12 @@
             <el-form-item :label="$t('sysTemConfigs.statisticalCode')" prop="statisticalCode">
               <el-input size="small" v-model="systemConfig.configs.statisticalCode"></el-input>
             </el-form-item>
+            <el-form-item label="邮箱">
+              <el-input></el-input>
+            </el-form-item>
+            <el-form-item label="电话">
+                <el-input></el-input>
+            </el-form-item>
             <el-form-item>
               <el-button
                 size="medium"

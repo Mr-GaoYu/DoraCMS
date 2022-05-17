@@ -51,7 +51,7 @@ module.exports = (appInfo) => {
     },
     // mongodb相关路径
     mongodb: {
-        binPath: "D:/MongoDB/bin",
+        binPath: "D:/MongoDB/bin/",
       backUpPath: path.join(appInfo.baseDir, 'databak/'),
     },
     static: {
@@ -60,7 +60,7 @@ module.exports = (appInfo) => {
         path.join(appInfo.baseDir, 'app/public'),
         path.join(appInfo.baseDir, 'backstage/dist'),
       ],
-      maxAge: 31536000,
+      maxAge: 0,
     },
     logger: {
       dir: path.join(appInfo.baseDir, 'logs'),

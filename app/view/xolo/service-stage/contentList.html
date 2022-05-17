@@ -1,0 +1,139 @@
+{% extends "../default.html" %} {% block content %}
+{% assets "service.css" %}
+{% endassets %}
+<div class="main-full">
+  <div id="post-6" class="page-content post-6 page type-page status-publish">
+    <div data-elementor-type="wp-page" data-elementor-id="6" class="elementor elementor-6" data-elementor-settings="[]">
+      <div class="elementor-section-wrap">
+        <section
+          class="has-el-gap el-gap-default elementor-section elementor-top-section elementor-element elementor-element-a60b8de elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+          data-id="a60b8de" data-element_type="section">
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-23a74f7 main-content"
+              data-id="23a74f7" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-f12d8b7 elementor-widget elementor-widget-smartmag-postslist"
+                  data-id="f12d8b7" data-element_type="widget" data-widget_type="smartmag-postslist.default">
+                  <div class="elementor-widget-container">
+                    <section class="block-wrap block-posts-list block-sc mb-none" data-id="10">
+                      <div class="block-content">
+                        <div class="loop loop-list grid grid-1 md:grid-1 sm:grid-1">
+                          {% for item in posts %}
+                          <article class="post">
+                            <div class="row">
+                              <div class="col-xs-5 col-sm-3 col-md-4">
+                                <a target="_blank" class="item-category" href="{{item.url}}">{{item.keywords[0]}}</a>
+
+                                <a href="{{item.url}}" target="_blank " class="contentImg ">
+                                  <img src="{{item.sImg}}" class="img-responsive " alt="{{item.title}}">
+                                </a>
+                              </div>
+                              <div class="col-xs-7 col-sm-9 col-md-8 discription ">
+                                <h2 class="post-title" alt="{{item.title}}">
+                                  <a href="{{item.url}}" target="_blank ">
+                                    {% if item.roofPlacement == 1 %}
+                                    <span class="sticky-post">置顶</span>
+                                    {% endif %}
+                                    {{item.title}}
+                                  </a></h2>
+                                <div class="post-content ">
+                                  {{item.discription}}
+                                </div>
+                                <div class="post-meta post-meta-actions">
+                                  <div class="author">
+                                    <a class="logo">
+                                      <img src="{{item.author.logo}}" alt="{{item.author.name}}">
+                                    </a>
+                                    <span>{{item.author.name}}</span>
+                                  </div>
+                                  <div>
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"
+                                      avalon-events="click:eclick_0_64askLike40$event443949394439n5353waK49u523941"></i>
+                                    <span id="thumbs_n55waK1u4">{{item.likeNum}}</span>
+                                  </div>
+                                  <div>
+                                    <i class="fa fa-thumbs-down" aria-hidden="true"
+                                      avalon-events="click:eclick_0_64askLike40$event443950394439n5353waK49u523941"></i>
+                                    <span id="despises_n55waK1u4">{{item.despiseNum}}</span>
+                                  </div>
+                                  <div>
+                                    <i class="fa fa-comment" aria-hidden="true"
+                                      avalon-events="click:eclick_0_64askLike40$event443951394439n5353waK49u523941"></i>
+                                    <span id="comments_n55waK1u4">{{item.commentNum}}</span>
+                                  </div>
+                                  <div><i class="fa fa-eye" aria-hidden="true"></i><span>{{item.clickNum}}</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </article>
+                          {% endfor %}
+                          {% include "../public/pagination.html" %}
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6fff579 main-sidebar ts-sticky-native"
+              data-id="6fff579" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-69a5e1e elementor-widget elementor-widget-smartmag-highlights"
+                  data-id="69a5e1e" data-element_type="widget" data-widget_type="smartmag-highlights.default">
+                  <div class="elementor-widget-container">
+                    <section class="block-wrap block-highlights block-sc" data-id="11">
+                      <div class="block-content">
+                        <div>
+                          <div class="loop loop-grid loop-grid-base grid grid-1 md:grid-1 xs:grid-1 re-list">
+                            <h2 class="pannel-title">推荐文章</h2>
+                            <div class="content-list">
+                              <div class="row">
+                                {% recommend "pageSize"=3,"typeId"="NkGSLLZF" %}
+                                {% for item in recommend %}
+                                <div class="col-md-6 list-img">
+                                  <a href="{{item.url}}" class="continue-reading"><img src="{{item.sImg}}"
+                                      alt="{{item.title}}"></a>
+                                  <a href="{{item.url}}" target="_blank" class="title">
+                                    {{item.title}}
+                                  </a>
+                                </div>
+                                {% endfor %}
+
+                              </div>
+                            </div>
+                          </div>
+                          <div class="loop loop-grid loop-grid-base grid grid-1 md:grid-1 xs:grid-1 hot-content-list">
+                            <h2 class="pannel-title">热门文章</h2>
+                            <div class="content-list" style="text-align:left">
+                              <ul>
+                                {% hot "pageSize"=3,"typeId"="NkGSLLZF" %}
+                                {% for item in hot %}
+                                <li><span class="triangle"></span>
+                                  <div class="con"><a href="{{item.url}}" target="_blank">
+                                      {{item.title}}
+                                    </a></div>
+                                </li>
+                                {% endfor %}
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
