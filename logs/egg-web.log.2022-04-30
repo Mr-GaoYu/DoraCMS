@@ -1,0 +1,200 @@
+2022-04-17 10:15:13,440 INFO 16204 [egg-logrotator] app logger reload: got log-reload message
+2022-04-17 10:15:13,567 INFO 16204 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-04-17 10:15:13,567 INFO 16204 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-04-17 10:16:59,520 INFO 16204 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.065ms)
+2022-04-30 12:13:29,746 INFO 17296 [egg:logger] init all loggers with options: {"dir":"G:\\DoraCMS\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"doracms2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-30 12:13:29,747 INFO 17296 [egg-view-nunjucks] loading templates from "G:\\DoraCMS\\app\\view"
+2022-04-30 12:13:29,871 INFO 17296 [egg-multipart] stream mode enable
+2022-04-30 12:13:30,065 INFO 17296 [egg-mongoose] connecting mongodb://127.0.0.1:27017/doracms2
+2022-04-30 12:13:31,073 INFO 17296 [egg-static] starting static serve /static -> G:\DoraCMS\app\public
+2022-04-30 12:13:31,074 INFO 17296 [egg-static] starting static serve /static -> G:\DoraCMS\backstage\dist
+2022-04-30 12:13:31,075 INFO 17296 [egg-security] use methodnoallow middleware
+2022-04-30 12:13:31,075 INFO 17296 [egg-security] use noopen middleware
+2022-04-30 12:13:31,076 INFO 17296 [egg-security] use nosniff middleware
+2022-04-30 12:13:31,076 INFO 17296 [egg-security] use xssProtection middleware
+2022-04-30 12:13:31,076 INFO 17296 [egg-security] use xframe middleware
+2022-04-30 12:13:31,076 INFO 17296 [egg-security] use dta middleware
+2022-04-30 12:13:31,076 INFO 17296 [egg-security] compose 6 middlewares into one security middleware
+2022-04-30 12:13:31,195 INFO 17296 [egg:core] dump config after load, 14ms
+2022-04-30 12:13:31,197 INFO 17296 [egg-mongoose] starting...
+2022-04-30 12:13:31,474 INFO 17296 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-04-30 12:13:31,479 INFO 17296 [egg-mongoose] instance[0] start successfully
+2022-04-30 12:13:31,480 INFO 17296 [egg-watcher:application] watcher start success
+2022-04-30 12:13:31,648 INFO 17296 [egg:core] dump config after ready, 7ms
+2022-04-30 12:14:04,362 INFO 17296 [-/127.0.0.1/-/14ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (4.579ms)
+2022-04-30 12:19:39,041 INFO 4484 [egg:logger] init all loggers with options: {"dir":"G:\\DoraCMS\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"doracms2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-30 12:19:39,041 INFO 4484 [egg-view-nunjucks] loading templates from "G:\\DoraCMS\\app\\view"
+2022-04-30 12:19:39,149 INFO 4484 [egg-multipart] stream mode enable
+2022-04-30 12:19:39,401 INFO 4484 [egg-mongoose] connecting mongodb://127.0.0.1:27017/doracms2
+2022-04-30 12:19:39,907 INFO 4484 [egg-static] starting static serve /static -> G:\DoraCMS\app\public
+2022-04-30 12:19:39,907 INFO 4484 [egg-static] starting static serve /static -> G:\DoraCMS\backstage\dist
+2022-04-30 12:19:39,909 INFO 4484 [egg-security] use methodnoallow middleware
+2022-04-30 12:19:39,910 INFO 4484 [egg-security] use noopen middleware
+2022-04-30 12:19:39,911 INFO 4484 [egg-security] use nosniff middleware
+2022-04-30 12:19:39,911 INFO 4484 [egg-security] use xssProtection middleware
+2022-04-30 12:19:39,912 INFO 4484 [egg-security] use xframe middleware
+2022-04-30 12:19:39,912 INFO 4484 [egg-security] use dta middleware
+2022-04-30 12:19:39,912 INFO 4484 [egg-security] compose 6 middlewares into one security middleware
+2022-04-30 12:19:40,121 INFO 4484 [egg:core] dump config after load, 183ms
+2022-04-30 12:19:40,125 INFO 4484 [egg-mongoose] starting...
+2022-04-30 12:19:40,229 INFO 4484 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-04-30 12:19:40,239 INFO 4484 [egg-mongoose] instance[0] start successfully
+2022-04-30 12:19:40,241 INFO 4484 [egg-watcher:application] watcher start success
+2022-04-30 12:19:40,278 INFO 4484 [egg:core] dump config after ready, 15ms
+2022-04-30 12:46:27,418 INFO 4484 [-/127.0.0.1/-/5ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (4.716ms)
+2022-04-30 12:55:04,469 INFO 4484 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.141ms)
+2022-04-30 12:55:44,388 INFO 4484 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (1.133ms)
+2022-04-30 12:55:44,828 INFO 4484 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.091ms)
+2022-04-30 12:56:04,713 INFO 4484 [-/127.0.0.1/-/2ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (1.442ms)
+2022-04-30 12:56:04,925 INFO 4484 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.119ms)
+2022-04-30 12:56:27,862 INFO 4484 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.09ms)
+2022-04-30 12:56:28,092 INFO 4484 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.101ms)
+2022-04-30 12:58:05,411 INFO 16624 [egg:logger] init all loggers with options: {"dir":"G:\\DoraCMS\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"doracms2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-30 12:58:05,411 INFO 16624 [egg-view-nunjucks] loading templates from "G:\\DoraCMS\\app\\view"
+2022-04-30 12:58:05,622 INFO 16624 [egg-multipart] stream mode enable
+2022-04-30 12:58:05,939 INFO 16624 [egg-mongoose] connecting mongodb://127.0.0.1:27017/doracms2
+2022-04-30 12:58:06,458 INFO 16624 [egg-static] starting static serve /static -> G:\DoraCMS\app\public
+2022-04-30 12:58:06,459 INFO 16624 [egg-static] starting static serve /static -> G:\DoraCMS\backstage\dist
+2022-04-30 12:58:06,461 INFO 16624 [egg-security] use methodnoallow middleware
+2022-04-30 12:58:06,461 INFO 16624 [egg-security] use noopen middleware
+2022-04-30 12:58:06,462 INFO 16624 [egg-security] use nosniff middleware
+2022-04-30 12:58:06,462 INFO 16624 [egg-security] use xssProtection middleware
+2022-04-30 12:58:06,462 INFO 16624 [egg-security] use xframe middleware
+2022-04-30 12:58:06,463 INFO 16624 [egg-security] use dta middleware
+2022-04-30 12:58:06,463 INFO 16624 [egg-security] compose 6 middlewares into one security middleware
+2022-04-30 12:58:06,491 INFO 16624 [egg:core] dump config after load, 8ms
+2022-04-30 12:58:06,495 INFO 16624 [egg-mongoose] starting...
+2022-04-30 12:58:06,569 INFO 16624 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-04-30 12:58:06,574 INFO 16624 [egg-mongoose] instance[0] start successfully
+2022-04-30 12:58:06,577 INFO 16624 [egg-watcher:application] watcher start success
+2022-04-30 12:58:06,607 INFO 16624 [egg:core] dump config after ready, 11ms
+2022-04-30 12:58:08,301 INFO 16624 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.647ms)
+2022-04-30 12:58:10,055 INFO 19776 [egg:logger] init all loggers with options: {"dir":"G:\\DoraCMS\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"doracms2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-30 12:58:10,055 INFO 19776 [egg-view-nunjucks] loading templates from "G:\\DoraCMS\\app\\view"
+2022-04-30 12:58:10,158 INFO 19776 [egg-multipart] stream mode enable
+2022-04-30 12:58:10,507 INFO 19776 [egg-mongoose] connecting mongodb://127.0.0.1:27017/doracms2
+2022-04-30 12:58:11,057 INFO 19776 [egg-static] starting static serve /static -> G:\DoraCMS\app\public
+2022-04-30 12:58:11,058 INFO 19776 [egg-static] starting static serve /static -> G:\DoraCMS\backstage\dist
+2022-04-30 12:58:11,060 INFO 19776 [egg-security] use methodnoallow middleware
+2022-04-30 12:58:11,060 INFO 19776 [egg-security] use noopen middleware
+2022-04-30 12:58:11,061 INFO 19776 [egg-security] use nosniff middleware
+2022-04-30 12:58:11,061 INFO 19776 [egg-security] use xssProtection middleware
+2022-04-30 12:58:11,061 INFO 19776 [egg-security] use xframe middleware
+2022-04-30 12:58:11,062 INFO 19776 [egg-security] use dta middleware
+2022-04-30 12:58:11,062 INFO 19776 [egg-security] compose 6 middlewares into one security middleware
+2022-04-30 12:58:11,105 INFO 19776 [egg:core] dump config after load, 23ms
+2022-04-30 12:58:11,109 INFO 19776 [egg-mongoose] starting...
+2022-04-30 12:58:11,376 INFO 19776 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-04-30 12:58:11,389 INFO 19776 [egg-mongoose] instance[0] start successfully
+2022-04-30 12:58:11,392 INFO 19776 [egg-watcher:application] watcher start success
+2022-04-30 12:58:11,422 INFO 19776 [egg:core] dump config after ready, 12ms
+2022-04-30 12:58:12,304 INFO 19776 [-/127.0.0.1/-/2ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.988ms)
+2022-04-30 12:58:14,378 INFO 16240 [egg:logger] init all loggers with options: {"dir":"G:\\DoraCMS\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"doracms2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-30 12:58:14,378 INFO 16240 [egg-view-nunjucks] loading templates from "G:\\DoraCMS\\app\\view"
+2022-04-30 12:58:14,513 INFO 16240 [egg-multipart] stream mode enable
+2022-04-30 12:58:14,923 INFO 16240 [egg-mongoose] connecting mongodb://127.0.0.1:27017/doracms2
+2022-04-30 12:58:15,624 INFO 16240 [egg-static] starting static serve /static -> G:\DoraCMS\app\public
+2022-04-30 12:58:15,625 INFO 16240 [egg-static] starting static serve /static -> G:\DoraCMS\backstage\dist
+2022-04-30 12:58:15,626 INFO 16240 [egg-security] use methodnoallow middleware
+2022-04-30 12:58:15,626 INFO 16240 [egg-security] use noopen middleware
+2022-04-30 12:58:15,627 INFO 16240 [egg-security] use nosniff middleware
+2022-04-30 12:58:15,627 INFO 16240 [egg-security] use xssProtection middleware
+2022-04-30 12:58:15,627 INFO 16240 [egg-security] use xframe middleware
+2022-04-30 12:58:15,628 INFO 16240 [egg-security] use dta middleware
+2022-04-30 12:58:15,628 INFO 16240 [egg-security] compose 6 middlewares into one security middleware
+2022-04-30 12:58:15,686 INFO 16240 [egg:core] dump config after load, 24ms
+2022-04-30 12:58:15,689 INFO 16240 [egg-mongoose] starting...
+2022-04-30 12:58:15,781 INFO 16240 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-04-30 12:58:15,799 INFO 16240 [egg-mongoose] instance[0] start successfully
+2022-04-30 12:58:15,801 INFO 16240 [egg-watcher:application] watcher start success
+2022-04-30 12:58:15,844 INFO 16240 [egg:core] dump config after ready, 15ms
+2022-04-30 12:58:17,338 INFO 16240 [-/127.0.0.1/-/2ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.809ms)
+2022-04-30 14:41:04,088 INFO 18492 [egg:logger] init all loggers with options: {"dir":"G:\\DoraCMS\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"doracms2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-04-30 14:41:04,088 INFO 18492 [egg-view-nunjucks] loading templates from "G:\\DoraCMS\\app\\view"
+2022-04-30 14:41:04,184 INFO 18492 [egg-multipart] stream mode enable
+2022-04-30 14:41:04,379 INFO 18492 [egg-mongoose] connecting mongodb://127.0.0.1:27017/doracms2
+2022-04-30 14:41:04,736 INFO 18492 [egg-static] starting static serve /static -> G:\DoraCMS\app\public
+2022-04-30 14:41:04,736 INFO 18492 [egg-static] starting static serve /static -> G:\DoraCMS\backstage\dist
+2022-04-30 14:41:04,738 INFO 18492 [egg-security] use methodnoallow middleware
+2022-04-30 14:41:04,738 INFO 18492 [egg-security] use noopen middleware
+2022-04-30 14:41:04,738 INFO 18492 [egg-security] use nosniff middleware
+2022-04-30 14:41:04,739 INFO 18492 [egg-security] use xssProtection middleware
+2022-04-30 14:41:04,739 INFO 18492 [egg-security] use xframe middleware
+2022-04-30 14:41:04,739 INFO 18492 [egg-security] use dta middleware
+2022-04-30 14:41:04,739 INFO 18492 [egg-security] compose 6 middlewares into one security middleware
+2022-04-30 14:41:04,773 INFO 18492 [egg:core] dump config after load, 12ms
+2022-04-30 14:41:04,775 INFO 18492 [egg-mongoose] starting...
+2022-04-30 14:41:04,845 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-04-30 14:41:04,854 INFO 18492 [egg-mongoose] instance[0] start successfully
+2022-04-30 14:41:04,856 INFO 18492 [egg-watcher:application] watcher start success
+2022-04-30 14:41:04,881 INFO 18492 [egg:core] dump config after ready, 8ms
+2022-04-30 14:41:06,122 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.327ms)
+2022-04-30 14:42:52,952 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.149ms)
+2022-04-30 14:42:53,146 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.07ms)
+2022-04-30 14:43:01,244 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.257ms)
+2022-04-30 14:44:50,396 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.054ms)
+2022-04-30 14:44:50,567 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.087ms)
+2022-04-30 14:46:17,864 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.082ms)
+2022-04-30 14:46:18,039 INFO 18492 [-/127.0.0.1/-/3ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.077ms)
+2022-04-30 14:52:12,168 INFO 18492 [-/127.0.0.1/-/2ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (1.94ms)
+2022-04-30 14:52:12,359 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.201ms)
+2022-04-30 14:58:49,353 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.06ms)
+2022-04-30 14:58:49,519 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.069ms)
+2022-04-30 15:27:04,574 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.286ms)
+2022-04-30 15:27:04,831 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.253ms)
+2022-04-30 15:35:28,950 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.645ms)
+2022-04-30 15:35:30,489 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.218ms)
+2022-04-30 15:41:38,103 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.325ms)
+2022-04-30 15:41:39,653 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.301ms)
+2022-04-30 15:45:19,556 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.283ms)
+2022-04-30 15:45:19,775 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.24ms)
+2022-04-30 15:47:19,225 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.339ms)
+2022-04-30 15:47:19,447 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.186ms)
+2022-04-30 15:50:16,108 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.555ms)
+2022-04-30 15:50:16,346 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.169ms)
+2022-04-30 16:28:55,355 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.334ms)
+2022-04-30 17:04:03,728 ERROR 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-04-30 17:04:03,729 WARN 18492 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-30 17:04:04,645 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.338ms)
+2022-04-30 17:04:13,737 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-04-30 17:04:13,737 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-04-30 17:31:20,071 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.045ms)
+2022-04-30 17:31:20,298 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.082ms)
+2022-04-30 17:45:57,706 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.341ms)
+2022-04-30 17:45:58,004 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.209ms)
+2022-04-30 17:46:02,198 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.059ms)
+2022-04-30 17:46:02,446 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.054ms)
+2022-04-30 17:55:09,671 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.122ms)
+2022-04-30 17:55:09,976 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.07ms)
+2022-04-30 18:02:35,907 INFO 18492 [-/127.0.0.1/-/3ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (2.158ms)
+2022-04-30 18:02:36,142 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.351ms)
+2022-04-30 18:07:15,489 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.468ms)
+2022-04-30 18:07:15,752 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.229ms)
+2022-04-30 18:12:35,101 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.059ms)
+2022-04-30 18:12:35,348 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.1ms)
+2022-04-30 18:37:15,405 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.272ms)
+2022-04-30 18:37:15,690 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.167ms)
+2022-04-30 18:56:11,469 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.41ms)
+2022-04-30 18:56:11,728 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.236ms)
+2022-04-30 19:10:55,026 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.076ms)
+2022-04-30 19:10:55,307 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.05ms)
+2022-04-30 19:19:04,292 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.412ms)
+2022-04-30 19:19:04,526 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.203ms)
+2022-04-30 19:22:22,814 INFO 18492 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.375ms)
+2022-04-30 19:22:23,048 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.199ms)
+2022-04-30 19:53:59,049 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.109ms)
+2022-04-30 21:03:45,730 ERROR 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-04-30 21:03:45,731 WARN 18492 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-04-30 21:03:46,594 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.103ms)
+2022-04-30 21:03:55,749 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-04-30 21:03:55,749 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-04-30 23:51:13,968 INFO 18492 [-/127.0.0.1/-/2ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (1.299ms)
+2022-05-01 10:32:59,735 ERROR 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-01 10:32:59,737 WARN 18492 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-01 10:33:07,531 INFO 18492 [egg-logrotator] start remove G:\DoraCMS\logs files: common-error.log.2022-03-26, common-error.log.2022-03-27, doracms2-web.log.2022-03-26, doracms2-web.log.2022-03-27, egg-agent.log.2022-03-26, egg-agent.log.2022-03-27, egg-schedule.log.2022-03-26, egg-schedule.log.2022-03-27, egg-web.log.2022-03-26, egg-web.log.2022-03-27
+2022-05-01 10:33:07,536 INFO 18492 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Mr_Ga\\AppData\\Local\\Temp\\egg-multipart-tmp\\doracms2"
+2022-05-01 10:33:07,539 INFO 18492 [egg-logrotator] clean all log before 31 days
+2022-05-01 10:33:07,558 INFO 18492 [-/127.0.0.1/-/6ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (6.604ms)
+2022-05-01 10:33:07,574 INFO 18492 [-/127.0.0.1/-/39ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-05-01 10:33:07,580 INFO 18492 [egg-logrotator] broadcast log-reload
+2022-05-01 10:33:07,580 INFO 18492 [egg-logrotator] rotate files success by DayRotator, files ["G:\\DoraCMS\\logs\\common-error.log -> G:\\DoraCMS\\logs\\common-error.log.2022-04-30","G:\\DoraCMS\\logs\\doracms2-web.log -> G:\\DoraCMS\\logs\\doracms2-web.log.2022-04-30","G:\\DoraCMS\\logs\\egg-web.log -> G:\\DoraCMS\\logs\\egg-web.log.2022-04-30","G:\\DoraCMS\\logs\\egg-schedule.log -> G:\\DoraCMS\\logs\\egg-schedule.log.2022-04-30","G:\\DoraCMS\\logs\\egg-agent.log -> G:\\DoraCMS\\logs\\egg-agent.log.2022-04-30"]

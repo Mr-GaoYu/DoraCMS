@@ -1,0 +1,7 @@
+2022-05-16 20:14:50,884 INFO 10616 [egg-logrotator] app logger reload: got log-reload message
+2022-05-16 20:14:50,943 INFO 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-16 20:14:50,943 INFO 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-17 00:00:00,038 INFO 10616 [egg-logrotator] start remove G:\DoraCMS\logs files: common-error.log.2022-04-15, doracms2-web.log.2022-04-15, egg-agent.log.2022-04-15, egg-schedule.log.2022-04-15, egg-web.log.2022-04-15
+2022-05-17 00:00:01,135 INFO 10616 [egg-logrotator] clean all log before 31 days
+2022-05-17 00:00:01,327 INFO 10616 [egg-logrotator] broadcast log-reload
+2022-05-17 00:00:01,327 INFO 10616 [egg-logrotator] rotate files success by DayRotator, files ["G:\\DoraCMS\\logs\\common-error.log -> G:\\DoraCMS\\logs\\common-error.log.2022-05-16","G:\\DoraCMS\\logs\\doracms2-web.log -> G:\\DoraCMS\\logs\\doracms2-web.log.2022-05-16","G:\\DoraCMS\\logs\\egg-web.log -> G:\\DoraCMS\\logs\\egg-web.log.2022-05-16","G:\\DoraCMS\\logs\\egg-schedule.log -> G:\\DoraCMS\\logs\\egg-schedule.log.2022-05-16","G:\\DoraCMS\\logs\\egg-agent.log -> G:\\DoraCMS\\logs\\egg-agent.log.2022-05-16"]

@@ -1,0 +1,18 @@
+2022-05-17 20:19:17,502 ERROR 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-17 20:19:21,987 ERROR 1684 nodejs.ClusterClientNoResponseError: client no response in 72761496ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1684
+hostname: BeiBei
+
+2022-05-18 20:26:26,550 ERROR 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-18 20:26:31,261 ERROR 1684 nodejs.ClusterClientNoResponseError: client no response in 77422718ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1684
+hostname: BeiBei
+

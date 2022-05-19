@@ -1,0 +1,818 @@
+{
+  "keys": "G:\\DoraCMS\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "port": "G:\\DoraCMS\\config\\config.default.js",
+      "hostname": "G:\\DoraCMS\\config\\config.default.js",
+      "path": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "key": "G:\\DoraCMS\\config\\config.default.js",
+    "maxAge": "G:\\DoraCMS\\config\\config.default.js",
+    "httpOnly": "G:\\DoraCMS\\config\\config.default.js",
+    "encrypt": "G:\\DoraCMS\\config\\config.default.js",
+    "renew": "G:\\DoraCMS\\config\\config.default.js",
+    "logValue": "G:\\DoraCMS\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "userMaxAge": "G:\\DoraCMS\\config\\config.default.js",
+  "adminUserMaxAge": "G:\\DoraCMS\\config\\config.default.js",
+  "siteFile": {
+    "/favicon.ico": "G:\\DoraCMS\\config\\config.default.js",
+    "cacheControl": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+  },
+  "middleware": "G:\\DoraCMS\\config\\config.default.js",
+  "compress": {
+    "threshold": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "authPage": {
+    "threshold": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "G:\\DoraCMS\\config\\config.default.js",
+    "mapping": {
+      ".html": "G:\\DoraCMS\\config\\config.default.js"
+    },
+    "root": "G:\\DoraCMS\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "G:\\DoraCMS\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "G:\\DoraCMS\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "G:\\DoraCMS\\config\\config.default.js",
+    "dirs": "G:\\DoraCMS\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "G:\\DoraCMS\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "G:\\DoraCMS\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "G:\\DoraCMS\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "G:\\DoraCMS\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "alinode": {
+    "enable": "G:\\DoraCMS\\config\\config.default.js",
+    "server": "G:\\DoraCMS\\config\\config.default.js",
+    "appid": "G:\\DoraCMS\\config\\config.default.js",
+    "secret": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "origin": "G:\\DoraCMS\\config\\config.default.js",
+  "doracms_api": "G:\\DoraCMS\\config\\config.default.js",
+  "temp_static_forder": "G:\\DoraCMS\\config\\config.default.js",
+  "temp_view_forder": "G:\\DoraCMS\\config\\config.default.js",
+  "temp_locales_forder": "G:\\DoraCMS\\config\\config.default.js",
+  "admin_base_path": "G:\\DoraCMS\\config\\config.default.js",
+  "session_secret": "G:\\DoraCMS\\config\\config.default.js",
+  "auth_cookie_name": "G:\\DoraCMS\\config\\config.default.js",
+  "encrypt_key": "G:\\DoraCMS\\config\\config.default.js",
+  "salt_aes_key": "G:\\DoraCMS\\config\\config.default.js",
+  "salt_md5_key": "G:\\DoraCMS\\config\\config.default.js",
+  "socket_prefix": "G:\\DoraCMS\\config\\config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "G:\\DoraCMS\\config\\config.default.js",
+      "type": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "supportedRequests": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "crossHeader": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "authAdminToken": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "authAdminPower": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "authUserToken": {
+    "ignore": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "multipart": {
+    "fileSize": "G:\\DoraCMS\\config\\config.default.js",
+    "mode": "G:\\DoraCMS\\config\\config.default.js",
+    "fileExtensions": "G:\\DoraCMS\\config\\config.default.js",
+    "autoFields": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "G:\\DoraCMS\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "backUpTick": "G:\\DoraCMS\\config\\config.default.js",
+  "io": {
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "G:\\DoraCMS\\config\\config.default.js",
+        "packetMiddleware": "G:\\DoraCMS\\config\\config.default.js"
+      }
+    },
+    "init": "G:\\DoraCMS\\node_modules\\egg-socket.io\\config\\config.default.js"
+  },
+  "backUpDataRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "uploadFileRouter": {
+    "uploadFileFormat": {
+      "upload_path": "G:\\DoraCMS\\config\\config.default.js",
+      "static_root_path": "G:\\DoraCMS\\config\\config.default.js"
+    },
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "regUserRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "adsRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "announceRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "contentRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "contentCategoryRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "contentMessageRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "contentTagRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "contentTempRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "helpCenterRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "siteMessageRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "systemNotifyRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "systemOptionLogRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "templateConfigRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "versionManageRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "mailTemplateRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "mailDeliveryRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "doraMiddleStageRouter": {
+    "match": "G:\\DoraCMS\\config\\config.default.js"
+  },
+  "admin_root_path": "G:\\DoraCMS\\config\\config.local.js",
+  "dev_modules": "G:\\DoraCMS\\config\\config.local.js",
+  "mongoose": {
+    "client": {
+      "url": "G:\\DoraCMS\\config\\config.local.js",
+      "options": {
+        "useCreateIndex": "G:\\DoraCMS\\config\\config.local.js",
+        "useUnifiedTopology": "G:\\DoraCMS\\config\\config.local.js",
+        "keepAlive": "G:\\DoraCMS\\config\\config.local.js"
+      }
+    },
+    "url": "G:\\DoraCMS\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "options": "G:\\DoraCMS\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "plugins": "G:\\DoraCMS\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "loadModel": "G:\\DoraCMS\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "app": "G:\\DoraCMS\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "agent": "G:\\DoraCMS\\node_modules\\egg-mongoose\\config\\config.default.js"
+  },
+  "mongodb": {
+    "binPath": "G:\\DoraCMS\\config\\config.local.js",
+    "backUpPath": "G:\\DoraCMS\\config\\config.local.js"
+  },
+  "static": {
+    "prefix": "G:\\DoraCMS\\config\\config.local.js",
+    "dir": "G:\\DoraCMS\\config\\config.local.js",
+    "maxAge": "G:\\DoraCMS\\config\\config.local.js",
+    "dynamic": "G:\\DoraCMS\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "G:\\DoraCMS\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "G:\\DoraCMS\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "G:\\DoraCMS\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "G:\\DoraCMS\\config\\config.local.js",
+    "encoding": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "env": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "level": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "G:\\DoraCMS\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "enablePerformanceTimer": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+  },
+  "server_path": "G:\\DoraCMS\\config\\config.local.js",
+  "server_api": "G:\\DoraCMS\\config\\config.local.js",
+  "helper": {
+    "shtml": "G:\\DoraCMS\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "G:\\DoraCMS\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "G:\\DoraCMS\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "G:\\DoraCMS\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "G:\\DoraCMS\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "G:\\DoraCMS\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "G:\\DoraCMS\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "G:\\DoraCMS\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "G:\\DoraCMS\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "G:\\DoraCMS\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "G:\\DoraCMS\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "G:\\DoraCMS\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "G:\\DoraCMS\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "G:\\DoraCMS\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "G:\\DoraCMS\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "G:\\DoraCMS\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "G:\\DoraCMS\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "G:\\DoraCMS\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "G:\\DoraCMS\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "G:\\DoraCMS\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "G:\\DoraCMS\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "G:\\DoraCMS\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "G:\\DoraCMS\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "G:\\DoraCMS\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "G:\\DoraCMS\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "G:\\DoraCMS\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "G:\\DoraCMS\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "G:\\DoraCMS\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "G:\\DoraCMS\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "G:\\DoraCMS\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "G:\\DoraCMS\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "doraBackUpData": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-backupdata\\config\\config.default.js"
+  },
+  "validate": "G:\\DoraCMS\\node_modules\\egg-dora-validate\\config\\config.default.js",
+  "doraUploadFile": {
+    "alias": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\node_modules\\egg-dora-uploadfile\\config\\config.default.js"
+  },
+  "doraRegUser": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-reguser\\config\\config.default.js"
+  },
+  "doraAds": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-ads\\config\\config.default.js"
+  },
+  "doraAnnounce": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-announce\\config\\config.default.js"
+  },
+  "doraContent": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-content\\config\\config.default.js"
+  },
+  "doraContentCategory": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentcategory\\config\\config.default.js"
+  },
+  "doraContentMessage": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contentmessage\\config\\config.default.js"
+  },
+  "doraContentTags": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttags\\config\\config.default.js"
+  },
+  "doraContentTemp": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-contenttemp\\config\\config.default.js"
+  },
+  "doraHelpCenter": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-helpcenter\\config\\config.default.js"
+  },
+  "doraSiteMessage": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-sitemessage\\config\\config.default.js"
+  },
+  "doraSystemNotify": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemnotify\\config\\config.default.js"
+  },
+  "doraSystemOptionLog": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-systemoptionlog\\config\\config.default.js"
+  },
+  "doraTemplateConfig": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-templateconfig\\config\\config.default.js"
+  },
+  "doraVersionManage": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-versionmanage\\config\\config.default.js"
+  },
+  "doraMiddleStage": {
+    "alias": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\node_modules\\egg-dora-middlestage\\config\\config.default.js"
+  },
+  "doraMailTemplate": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-mailtemplate\\config\\config.default.js"
+  },
+  "doraMailDelivery": {
+    "alias": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "pkgName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "enName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "name": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "isadm": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "isindex": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "iconName": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "adminUrl": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "adminApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "fontApi": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "initData": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "pluginsConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js",
+    "defaultConfig": "G:\\DoraCMS\\lib\\plugin\\egg-dora-maildelivery\\config\\config.default.js"
+  },
+  "env": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "name": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "version": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "description": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "@cdxoo/mongodb-restore": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "archiver": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "await-stream-ready": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "axios": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "crypto-js": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-dora-middlestage": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-dora-rendercms": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-dora-uploadfile": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-dora-validate": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-dora-valine": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-mongoose": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-redis": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-socket.io": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "iconv-lite": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "js-cache": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "jsonwebtoken": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "koa-compress": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "mammoth": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "module-alias": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "moment": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "mongodb": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "muri": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "node-schedule": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "node-unzip-2": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "nodemailer": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "qr-image": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "shelljs": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "shortid": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "stream-wormhole": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "trek-captcha": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "validator": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "xss": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "eslint-plugin-prettier": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "prettier": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "debug": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "dev": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "test": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "cov": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "lint": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "ci": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "autod": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "pkgfiles": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "init": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "doracms": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "publishThemes": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "makeReleasePro": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "makeAdminScaffoldPro": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "makeGitHubPro": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "start": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "stop": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "url": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "author": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "files": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "eslintIgnore": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "_moduleAliases": {
+      "@root": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "@validate": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "@utils": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "license": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "strict": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "depth": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "logging": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "G:\\DoraCMS\\node_modules\\egg\\config\\config.default.js"
+}

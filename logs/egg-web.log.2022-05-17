@@ -1,0 +1,15 @@
+2022-05-17 00:00:01,330 INFO 10616 [egg-logrotator] app logger reload: got log-reload message
+2022-05-17 20:19:17,502 ERROR 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-17 20:19:21,974 WARN 10616 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-17 20:19:21,982 INFO 10616 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Mr_Ga\\AppData\\Local\\Temp\\egg-multipart-tmp\\doracms2"
+2022-05-17 20:19:22,017 INFO 10616 [-/127.0.0.1/-/36ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-05-17 20:19:27,518 INFO 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-17 20:19:27,518 INFO 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-18 20:26:26,551 ERROR 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-18 20:26:26,553 WARN 10616 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-18 20:26:35,357 INFO 10616 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Mr_Ga\\AppData\\Local\\Temp\\egg-multipart-tmp\\doracms2"
+2022-05-18 20:26:35,378 INFO 10616 [egg-logrotator] start remove G:\DoraCMS\logs files: common-error.log.2022-04-16, doracms2-web.log.2022-04-16, egg-agent.log.2022-04-16, egg-schedule.log.2022-04-16, egg-web.log.2022-04-16
+2022-05-18 20:26:35,383 INFO 10616 [egg-logrotator] clean all log before 31 days
+2022-05-18 20:26:35,389 INFO 10616 [-/127.0.0.1/-/33ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-05-18 20:26:35,394 INFO 10616 [egg-logrotator] broadcast log-reload
+2022-05-18 20:26:35,394 INFO 10616 [egg-logrotator] rotate files success by DayRotator, files ["G:\\DoraCMS\\logs\\common-error.log -> G:\\DoraCMS\\logs\\common-error.log.2022-05-17","G:\\DoraCMS\\logs\\doracms2-web.log -> G:\\DoraCMS\\logs\\doracms2-web.log.2022-05-17","G:\\DoraCMS\\logs\\egg-web.log -> G:\\DoraCMS\\logs\\egg-web.log.2022-05-17","G:\\DoraCMS\\logs\\egg-schedule.log -> G:\\DoraCMS\\logs\\egg-schedule.log.2022-05-17","G:\\DoraCMS\\logs\\egg-agent.log -> G:\\DoraCMS\\logs\\egg-agent.log.2022-05-17"]

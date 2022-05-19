@@ -1,0 +1,36 @@
+2022-05-15 02:14:31,534 ERROR 10424 nodejs.ClusterClientNoResponseError: client no response in 5935837ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10424
+hostname: BeiBei
+
+2022-05-15 02:14:31,535 ERROR 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-15 02:16:13,501 ERROR 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-15 02:16:13,501 ERROR 10424 nodejs.ClusterClientNoResponseError: client no response in 101961ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 10424
+hostname: BeiBei
+
+2022-05-15 20:49:03,953 ERROR 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-15 20:49:04,268 ERROR 1684 nodejs.ClusterClientNoResponseError: client no response in 2979561ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1684
+hostname: BeiBei
+
+2022-05-16 20:14:44,587 ERROR 10616 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-16 20:14:49,094 ERROR 1684 nodejs.ClusterClientNoResponseError: client no response in 75177721ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1684
+hostname: BeiBei
+

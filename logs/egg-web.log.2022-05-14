@@ -1,0 +1,79 @@
+2022-05-14 09:55:16,695 INFO 11724 [egg-logrotator] app logger reload: got log-reload message
+2022-05-14 09:55:16,803 INFO 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-14 09:55:16,803 INFO 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-14 09:57:20,079 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.054ms)
+2022-05-14 09:57:20,244 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.085ms)
+2022-05-14 10:12:42,799 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.056ms)
+2022-05-14 10:12:42,985 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.059ms)
+2022-05-14 10:14:59,588 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.148ms)
+2022-05-14 10:14:59,838 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.045ms)
+2022-05-14 10:29:18,716 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.308ms)
+2022-05-14 10:29:18,888 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.199ms)
+2022-05-14 10:30:11,152 INFO 11724 [-/127.0.0.1/-/2ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (1.288ms)
+2022-05-14 10:30:11,296 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.21ms)
+2022-05-14 10:34:14,594 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.079ms)
+2022-05-14 10:34:14,771 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.055ms)
+2022-05-14 10:44:11,594 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.104ms)
+2022-05-14 10:44:11,761 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.122ms)
+2022-05-14 10:55:53,539 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.055ms)
+2022-05-14 10:55:53,721 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.07ms)
+2022-05-14 10:57:01,215 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.088ms)
+2022-05-14 10:57:01,394 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.067ms)
+2022-05-14 11:29:07,737 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.066ms)
+2022-05-14 11:41:13,951 ERROR 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-14 11:41:13,952 WARN 11724 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-14 11:41:13,952 WARN 11724 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-14 11:41:14,557 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.077ms)
+2022-05-14 11:41:23,964 INFO 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-14 11:41:23,964 INFO 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-14 12:14:37,408 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.149ms)
+2022-05-14 12:14:37,649 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.097ms)
+2022-05-14 13:12:41,593 INFO 11724 [-/127.0.0.1/-/9ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.844ms)
+2022-05-14 13:12:41,819 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.252ms)
+2022-05-14 13:22:15,608 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.05ms)
+2022-05-14 13:22:15,898 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.099ms)
+2022-05-14 13:23:06,794 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.122ms)
+2022-05-14 13:23:07,110 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.063ms)
+2022-05-14 14:42:35,805 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.385ms)
+2022-05-14 14:42:36,122 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.197ms)
+2022-05-14 14:50:41,160 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.093ms)
+2022-05-14 14:50:41,540 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.08ms)
+2022-05-14 15:31:48,440 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.459ms)
+2022-05-14 15:31:48,702 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.25ms)
+2022-05-14 15:31:54,954 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.09ms)
+2022-05-14 15:31:55,173 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.064ms)
+2022-05-14 15:52:14,464 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.445ms)
+2022-05-14 15:52:14,702 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.147ms)
+2022-05-14 17:09:41,907 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.254ms)
+2022-05-14 20:09:53,819 ERROR 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-14 20:09:53,820 WARN 11724 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-14 20:09:53,821 WARN 11724 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-14 20:09:54,676 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.206ms)
+2022-05-14 20:10:03,838 INFO 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-14 20:10:03,838 INFO 11724 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-14 21:55:55,440 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.041ms)
+2022-05-14 21:56:01,959 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.065ms)
+2022-05-14 21:56:26,360 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.11ms)
+2022-05-14 22:05:56,282 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.548ms)
+2022-05-14 22:05:56,539 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.215ms)
+2022-05-14 22:12:09,428 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.054ms)
+2022-05-14 22:12:09,665 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.048ms)
+2022-05-14 22:14:26,342 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.067ms)
+2022-05-14 22:14:26,646 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.092ms)
+2022-05-14 22:29:40,752 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.558ms)
+2022-05-14 22:29:41,069 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.526ms)
+2022-05-14 22:46:26,296 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.129ms)
+2022-05-14 22:46:26,563 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.055ms)
+2022-05-14 22:48:32,277 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.365ms)
+2022-05-14 22:48:32,578 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.238ms)
+2022-05-14 23:19:40,131 INFO 11724 [-/127.0.0.1/-/2ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.82ms)
+2022-05-14 23:19:40,552 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.209ms)
+2022-05-14 23:24:58,140 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.081ms)
+2022-05-14 23:24:58,385 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.09ms)
+2022-05-14 23:28:11,520 INFO 11724 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.051ms)
+2022-05-14 23:28:11,731 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.113ms)
+2022-05-14 23:28:14,756 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.088ms)
+2022-05-14 23:28:15,133 INFO 11724 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.08ms)
+2022-05-14 23:59:58,378 INFO 11724 [egg-logrotator] clean all log before 31 days
+2022-05-14 23:59:59,537 INFO 11724 [egg-logrotator] broadcast log-reload
+2022-05-14 23:59:59,538 INFO 11724 [egg-logrotator] rotate files success by DayRotator, files ["G:\\DoraCMS\\logs\\common-error.log -> G:\\DoraCMS\\logs\\common-error.log.2022-05-14","G:\\DoraCMS\\logs\\doracms2-web.log -> G:\\DoraCMS\\logs\\doracms2-web.log.2022-05-14","G:\\DoraCMS\\logs\\egg-web.log -> G:\\DoraCMS\\logs\\egg-web.log.2022-05-14","G:\\DoraCMS\\logs\\egg-schedule.log -> G:\\DoraCMS\\logs\\egg-schedule.log.2022-05-14","G:\\DoraCMS\\logs\\egg-agent.log -> G:\\DoraCMS\\logs\\egg-agent.log.2022-05-14"]

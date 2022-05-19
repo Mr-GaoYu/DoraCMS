@@ -1,0 +1,15 @@
+2022-05-17 20:19:21,986 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 29438018ms at 2022-05-18 04:30:00.004
+2022-05-17 20:19:21,981 INFO 10616 [Job#16527899619732377569059822002] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2022-05-17 20:19:22,017 INFO 10616 [Job#16527899619732377569059822002] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 36ms. 
+2022-05-18 20:26:30,963 INFO 1684 [Timer] G:\DoraCMS\app\schedule\backup_data.js next time will execute after 12809049ms at 2022-05-19 00:00:00.011
+2022-05-18 20:26:31,253 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 12809036ms at 2022-05-19 00:00:00.289
+2022-05-18 20:26:31,255 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 12809747ms at 2022-05-19 00:00:01.002
+2022-05-18 20:26:31,260 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 29008745ms at 2022-05-19 04:30:00.005
+2022-05-18 20:26:30,980 INFO 10616 [Job#16528767865483245876528106003] G:\DoraCMS\app\schedule\backup_data.js executing by app
+2022-05-18 20:26:35,351 INFO 10616 [Job#16528767865483245876528106003] G:\DoraCMS\app\schedule\backup_data.js execute succeed, used 4369ms. 
+2022-05-18 20:26:35,352 INFO 10616 [Job#16528767909633245876668748003] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2022-05-18 20:26:35,355 INFO 10616 [Job#16528767912533245879571533003] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2022-05-18 20:26:35,356 INFO 10616 [Job#16528767912553245879588182003] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2022-05-18 20:26:35,383 INFO 10616 [Job#16528767909633245876668748003] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 31ms. 
+2022-05-18 20:26:35,390 INFO 10616 [Job#16528767912553245879588182003] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 33ms. 
+2022-05-18 20:26:35,394 INFO 10616 [Job#16528767912533245879571533003] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 39ms. 

@@ -1,0 +1,72 @@
+2022-05-15 10:31:07,846 INFO 9996 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:31:07,846 INFO 9996 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:31:07,846 INFO 9996 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:31:07,846 INFO 9996 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:31:08,506 INFO 13480 [Timer] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64731496ms at 2022-05-16 04:30:00.002
+2022-05-15 10:31:08,506 INFO 13480 [Timer] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 48531494ms at 2022-05-16 00:00:00.000
+2022-05-15 10:31:08,506 INFO 13480 [Timer] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 48532494ms at 2022-05-16 00:00:01.000
+2022-05-15 10:31:08,507 INFO 13480 [Timer] G:\DoraCMS\app\schedule\backup_data.js next time will execute after 48531494ms at 2022-05-16 00:00:00.001
+2022-05-15 10:37:52,176 INFO 5108 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:37:52,176 INFO 5108 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:37:52,176 INFO 5108 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:37:52,176 INFO 5108 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:37:53,850 INFO 8544 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:37:53,850 INFO 8544 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:37:53,850 INFO 8544 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:37:53,850 INFO 8544 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:38:18,738 INFO 10292 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:38:18,738 INFO 10292 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:38:18,738 INFO 10292 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:38:18,738 INFO 10292 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:39:27,431 INFO 11148 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:39:27,431 INFO 11148 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:39:27,431 INFO 11148 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:39:27,431 INFO 11148 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:40:08,021 INFO 8748 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:40:08,021 INFO 8748 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:40:08,021 INFO 8748 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:40:08,021 INFO 8748 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:40:43,800 INFO 2620 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:40:43,800 INFO 2620 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:40:43,800 INFO 2620 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:40:43,800 INFO 2620 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:41:13,785 INFO 16108 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:41:13,785 INFO 16108 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:41:13,785 INFO 16108 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:41:13,785 INFO 16108 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:41:17,891 INFO 13128 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:41:17,891 INFO 13128 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:41:17,891 INFO 13128 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:41:17,891 INFO 13128 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:42:17,731 INFO 2476 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:42:17,731 INFO 2476 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:42:17,731 INFO 2476 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:42:17,731 INFO 2476 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:42:20,787 INFO 15468 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:42:20,787 INFO 15468 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:42:20,787 INFO 15468 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:42:20,787 INFO 15468 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 10:43:18,791 INFO 4136 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 10:43:18,791 INFO 4136 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 10:43:18,791 INFO 4136 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 10:43:18,791 INFO 4136 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 11:03:51,891 INFO 10616 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-05-15 11:03:51,891 INFO 10616 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-05-15 11:03:51,891 INFO 10616 [egg-schedule]: register schedule G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-05-15 11:03:51,891 INFO 10616 [egg-schedule]: register schedule G:\DoraCMS\app\schedule\backup_data.js
+2022-05-15 11:03:52,523 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 62767479ms at 2022-05-16 04:30:00.002
+2022-05-15 11:03:52,523 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 46567477ms at 2022-05-16 00:00:00.000
+2022-05-15 11:03:52,523 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 46568477ms at 2022-05-16 00:00:01.000
+2022-05-15 11:03:52,523 INFO 1684 [Timer] G:\DoraCMS\app\schedule\backup_data.js next time will execute after 46567477ms at 2022-05-16 00:00:00.000
+2022-05-16 20:14:49,055 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 13510952ms at 2022-05-17 00:00:00.007
+2022-05-16 20:14:49,086 INFO 1684 [Timer] G:\DoraCMS\app\schedule\backup_data.js next time will execute after 13510944ms at 2022-05-17 00:00:00.030
+2022-05-16 20:14:49,091 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 13511912ms at 2022-05-17 00:00:01.002
+2022-05-16 20:14:49,093 INFO 1684 [Timer] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 29710909ms at 2022-05-17 04:30:00.002
+2022-05-16 20:14:49,053 INFO 10616 [Job#16527032890211510837851379001] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2022-05-16 20:14:49,070 INFO 10616 [Job#16527032890561510838149452001] G:\DoraCMS\app\schedule\backup_data.js executing by app
+2022-05-16 20:14:50,783 INFO 10616 [Job#16527032890561510838149452001] G:\DoraCMS\app\schedule\backup_data.js execute succeed, used 1713ms. 
+2022-05-16 20:14:50,783 INFO 10616 [Job#16527032890211510837851379001] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 1729ms. 
+2022-05-16 20:14:50,785 INFO 10616 [Job#16527032890861510838463765001] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2022-05-16 20:14:50,786 INFO 10616 [Job#16527032890911510838496164001] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2022-05-16 20:14:50,836 INFO 10616 [Job#16527032890911510838496164001] G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 49ms. 
+2022-05-16 20:14:50,880 INFO 10616 [Job#16527032890861510838463765001] G:\DoraCMS\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 95ms. 

@@ -1,0 +1,44 @@
+2022-05-04 16:05:24,649 INFO 9284 [egg-logrotator] agent logger reload: got log-reload message
+2022-05-04 17:34:32,624 ERROR 9284 nodejs.ClusterClientNoResponseError: client no response in 1826571ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 9284
+hostname: BeiBei
+
+2022-05-04 18:31:45,071 ERROR 9284 nodejs.ClusterClientNoResponseError: client no response in 71684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 9284
+hostname: BeiBei
+
+2022-05-04 21:18:25,848 ERROR 9284 nodejs.ClusterClientNoResponseError: client no response in 373344ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 9284
+hostname: BeiBei
+
+2022-05-04 21:43:57,053 INFO 9284 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"G:\\DoraCMS\\app\\public\\upload\\images\\20220430","stat":{"dev":2088059281,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":6755399441057506,"size":0,"blocks":128,"atimeMs":1651671837050.1736,"mtimeMs":1651315508584.568,"ctimeMs":1651315508584.568,"birthtimeMs":1651294812153.6797,"atime":"2022-05-04T13:43:57.050Z","mtime":"2022-04-30T10:45:08.585Z","ctime":"2022-04-30T10:45:08.585Z","birthtime":"2022-04-30T05:00:12.154Z"},"remove":false,"isDirectory":true,"isFile":false}
+2022-05-04 21:57:26,544 INFO 25264 [egg:logger] init all loggers with options: {"dir":"G:\\DoraCMS\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"doracms2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-05-04 21:57:26,554 INFO 25264 [egg:core] dump config after load, 7ms
+2022-05-04 21:57:26,654 INFO 25264 [egg-watcher] Start watching: ["G:\\DoraCMS\\app","G:\\DoraCMS\\config","G:\\DoraCMS\\mocks","G:\\DoraCMS\\mocks_proxy","G:\\DoraCMS\\app.js"]
+2022-05-04 21:57:26,654 INFO 25264 [egg-watcher] Start watching: "G:\\DoraCMS\\app"
+2022-05-04 21:57:26,654 INFO 25264 [egg-watcher] Start watching: "G:\\DoraCMS\\config"
+2022-05-04 21:57:26,654 INFO 25264 [egg-watcher] Start watching: "G:\\DoraCMS\\mocks"
+2022-05-04 21:57:26,654 INFO 25264 [egg-watcher] Start watching: "G:\\DoraCMS\\mocks_proxy"
+2022-05-04 21:57:26,654 INFO 25264 [egg-watcher] Start watching: "G:\\DoraCMS\\app.js"
+2022-05-04 21:57:26,655 INFO 25264 [egg-watcher:agent] watcher start success
+2022-05-04 21:57:26,679 INFO 25264 [egg:core] dump config after ready, 6ms
+2022-05-05 08:08:04,525 ERROR 25264 nodejs.ClusterClientNoResponseError: client no response in 32595174ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 25264
+hostname: BeiBei
+

@@ -1,0 +1,33 @@
+2022-05-05 23:59:59,287 INFO 25264 [egg-logrotator] agent logger reload: got log-reload message
+2022-05-06 13:47:27,979 ERROR 25264 nodejs.ClusterClientNoResponseError: client no response in 48755751ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 25264
+hostname: BeiBei
+
+2022-05-06 19:29:44,904 ERROR 25264 nodejs.ClusterClientNoResponseError: client no response in 13425689ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 25264
+hostname: BeiBei
+
+2022-05-06 22:48:16,517 ERROR 25264 nodejs.ClusterClientNoResponseError: client no response in 9970872ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 25264
+hostname: BeiBei
+
+2022-05-07 10:12:55,967 ERROR 25264 nodejs.ClusterClientNoResponseError: client no response in 39250193ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 25264
+hostname: BeiBei
+

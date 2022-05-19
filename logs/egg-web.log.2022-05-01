@@ -1,0 +1,17 @@
+2022-05-01 10:33:07,588 INFO 18492 [egg-logrotator] app logger reload: got log-reload message
+2022-05-01 10:33:07,667 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-01 10:33:07,667 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-01 18:15:55,127 INFO 18492 [-/127.0.0.1/-/4ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (3.5ms)
+2022-05-01 20:28:13,977 ERROR 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-01 20:28:13,985 WARN 18492 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-01 20:28:13,987 WARN 18492 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-01 20:28:23,997 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-01 20:28:23,997 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-02 07:25:14,959 ERROR 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-02 07:25:14,961 WARN 18492 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-02 07:25:14,962 WARN 18492 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-02 07:25:20,509 INFO 18492 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Mr_Ga\\AppData\\Local\\Temp\\egg-multipart-tmp\\doracms2"
+2022-05-02 07:25:20,530 INFO 18492 [egg-logrotator] clean all log before 31 days
+2022-05-02 07:25:20,555 INFO 18492 [-/127.0.0.1/-/46ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-05-02 07:25:20,561 INFO 18492 [egg-logrotator] broadcast log-reload
+2022-05-02 07:25:20,561 INFO 18492 [egg-logrotator] rotate files success by DayRotator, files ["G:\\DoraCMS\\logs\\common-error.log -> G:\\DoraCMS\\logs\\common-error.log.2022-05-01","G:\\DoraCMS\\logs\\doracms2-web.log -> G:\\DoraCMS\\logs\\doracms2-web.log.2022-05-01","G:\\DoraCMS\\logs\\egg-web.log -> G:\\DoraCMS\\logs\\egg-web.log.2022-05-01","G:\\DoraCMS\\logs\\egg-schedule.log -> G:\\DoraCMS\\logs\\egg-schedule.log.2022-05-01","G:\\DoraCMS\\logs\\egg-agent.log -> G:\\DoraCMS\\logs\\egg-agent.log.2022-05-01"]

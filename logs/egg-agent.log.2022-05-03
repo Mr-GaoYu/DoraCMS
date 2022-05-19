@@ -1,0 +1,9 @@
+2022-05-02 07:25:20,564 INFO 9284 [egg-logrotator] agent logger reload: got log-reload message
+2022-05-04 16:05:22,988 ERROR 9284 nodejs.ClusterClientNoResponseError: client no response in 201917444ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 9284
+hostname: BeiBei
+

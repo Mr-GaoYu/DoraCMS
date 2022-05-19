@@ -1,0 +1,46 @@
+2022-05-04 16:05:24,649 INFO 18492 [egg-logrotator] app logger reload: got log-reload message
+2022-05-04 16:05:24,747 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-04 16:05:24,750 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-04 17:34:32,624 ERROR 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-04 17:34:32,624 WARN 18492 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-04 17:34:42,638 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-04 17:34:42,638 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-04 18:31:45,071 ERROR 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-04 18:31:45,071 WARN 18492 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-04 18:31:55,077 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-04 18:31:55,077 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-04 18:38:57,423 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.221ms)
+2022-05-04 19:47:41,096 INFO 18492 [-/127.0.0.1/-/1ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.164ms)
+2022-05-04 21:18:21,781 ERROR 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-04 21:18:25,842 WARN 18492 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-04 21:18:31,794 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-04 21:18:31,794 INFO 18492 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-04 21:57:27,510 INFO 25056 [egg:logger] init all loggers with options: {"dir":"G:\\DoraCMS\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"doracms2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-04 21:57:27,510 INFO 25056 [egg-view-nunjucks] loading templates from "G:\\DoraCMS\\app\\view"
+2022-05-04 21:57:27,593 INFO 25056 [egg-multipart] stream mode enable
+2022-05-04 21:57:27,899 INFO 25056 [egg-mongoose] connecting mongodb://127.0.0.1:27017/doracms2
+2022-05-04 21:57:28,443 INFO 25056 [egg-static] starting static serve /static -> G:\DoraCMS\app\public
+2022-05-04 21:57:28,444 INFO 25056 [egg-static] starting static serve /static -> G:\DoraCMS\backstage\dist
+2022-05-04 21:57:28,445 INFO 25056 [egg-security] use methodnoallow middleware
+2022-05-04 21:57:28,446 INFO 25056 [egg-security] use noopen middleware
+2022-05-04 21:57:28,446 INFO 25056 [egg-security] use nosniff middleware
+2022-05-04 21:57:28,446 INFO 25056 [egg-security] use xssProtection middleware
+2022-05-04 21:57:28,447 INFO 25056 [egg-security] use xframe middleware
+2022-05-04 21:57:28,447 INFO 25056 [egg-security] use dta middleware
+2022-05-04 21:57:28,447 INFO 25056 [egg-security] compose 6 middlewares into one security middleware
+2022-05-04 21:57:28,483 INFO 25056 [egg:core] dump config after load, 12ms
+2022-05-04 21:57:28,484 INFO 25056 [egg-mongoose] starting...
+2022-05-04 21:57:28,552 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-04 21:57:28,558 INFO 25056 [egg-mongoose] instance[0] start successfully
+2022-05-04 21:57:28,559 INFO 25056 [egg-watcher:application] watcher start success
+2022-05-04 21:57:28,585 INFO 25056 [egg:core] dump config after ready, 7ms
+2022-05-04 21:59:53,863 INFO 25056 [-/127.0.0.1/-/2ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (2.055ms)
+2022-05-04 22:00:00,031 INFO 25056 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:48:11 success (0.08ms)
+2022-05-04 22:13:44,373 INFO 25056 [-/127.0.0.1/-/0ms GET /] [egg:background] task:G:\DoraCMS\app.js:57:11 success (0.177ms)
+2022-05-05 08:08:04,506 ERROR 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-05 08:08:04,508 WARN 25056 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-05 08:08:11,255 INFO 25056 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Mr_Ga\\AppData\\Local\\Temp\\egg-multipart-tmp\\doracms2"
+2022-05-05 08:08:11,265 INFO 25056 [egg-logrotator] clean all log before 31 days
+2022-05-05 08:08:11,287 INFO 25056 [-/127.0.0.1/-/32ms SCHEDULE /__schedule?path=G:\DoraCMS\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-05-05 08:08:11,290 INFO 25056 [egg-logrotator] broadcast log-reload
+2022-05-05 08:08:11,290 INFO 25056 [egg-logrotator] rotate files success by DayRotator, files ["G:\\DoraCMS\\logs\\common-error.log -> G:\\DoraCMS\\logs\\common-error.log.2022-05-04","G:\\DoraCMS\\logs\\doracms2-web.log -> G:\\DoraCMS\\logs\\doracms2-web.log.2022-05-04","G:\\DoraCMS\\logs\\egg-web.log -> G:\\DoraCMS\\logs\\egg-web.log.2022-05-04","G:\\DoraCMS\\logs\\egg-schedule.log -> G:\\DoraCMS\\logs\\egg-schedule.log.2022-05-04","G:\\DoraCMS\\logs\\egg-agent.log -> G:\\DoraCMS\\logs\\egg-agent.log.2022-05-04"]

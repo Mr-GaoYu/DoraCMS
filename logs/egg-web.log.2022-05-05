@@ -1,0 +1,24 @@
+2022-05-05 08:08:11,306 INFO 25056 [egg-logrotator] app logger reload: got log-reload message
+2022-05-05 08:08:11,409 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-05 08:08:11,409 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-05 08:47:11,501 ERROR 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-05 08:47:11,502 WARN 25056 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-05 08:47:21,505 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-05 08:47:21,505 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-05 13:43:38,819 ERROR 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-05 13:43:38,820 WARN 25056 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-05 13:43:48,822 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-05 13:43:48,822 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-05 17:05:23,990 ERROR 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-05 17:05:23,993 WARN 25056 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-05 17:05:23,993 WARN 25056 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-05 17:05:33,995 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-05 17:05:33,995 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-05 20:26:10,502 ERROR 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-05 20:26:10,504 WARN 25056 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-05 20:26:10,505 WARN 25056 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-05 20:26:20,507 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 connected successfully
+2022-05-05 20:26:20,507 INFO 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 reconnected successfully
+2022-05-05 23:59:59,171 INFO 25056 [egg-logrotator] clean all log before 31 days
+2022-05-05 23:59:59,280 INFO 25056 [egg-logrotator] broadcast log-reload
+2022-05-05 23:59:59,280 INFO 25056 [egg-logrotator] rotate files success by DayRotator, files ["G:\\DoraCMS\\logs\\common-error.log -> G:\\DoraCMS\\logs\\common-error.log.2022-05-05","G:\\DoraCMS\\logs\\doracms2-web.log -> G:\\DoraCMS\\logs\\doracms2-web.log.2022-05-05","G:\\DoraCMS\\logs\\egg-web.log -> G:\\DoraCMS\\logs\\egg-web.log.2022-05-05","G:\\DoraCMS\\logs\\egg-schedule.log -> G:\\DoraCMS\\logs\\egg-schedule.log.2022-05-05","G:\\DoraCMS\\logs\\egg-agent.log -> G:\\DoraCMS\\logs\\egg-agent.log.2022-05-05"]

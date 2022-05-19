@@ -1,0 +1,20 @@
+2022-05-01 10:33:07,582 INFO 9284 [egg-logrotator] agent logger reload: got log-reload message
+2022-05-01 20:28:13,997 ERROR 9284 nodejs.ClusterClientNoResponseError: client no response in 7937709ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 9284
+hostname: BeiBei
+
+2022-05-01 22:53:48,022 INFO 9284 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"G:\\DoraCMS\\app\\view\\xolo\\index.html","stat":{"dev":2088059281,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907380043,"size":57453,"blocks":120,"atimeMs":1651416827999.332,"mtimeMs":1651416827999.332,"ctimeMs":1651416827999.332,"birthtimeMs":1647752406424.76,"atime":"2022-05-01T14:53:47.999Z","mtime":"2022-05-01T14:53:47.999Z","ctime":"2022-05-01T14:53:47.999Z","birthtime":"2022-03-20T05:00:06.425Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-05-01 22:53:48,025 INFO 9284 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"G:\\DoraCMS\\app\\view\\xolo\\index.html","stat":{"dev":2088059281,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907380043,"size":57453,"blocks":120,"atimeMs":1651416827999.332,"mtimeMs":1651416827999.332,"ctimeMs":1651416827999.332,"birthtimeMs":1647752406424.76,"atime":"2022-05-01T14:53:47.999Z","mtime":"2022-05-01T14:53:47.999Z","ctime":"2022-05-01T14:53:47.999Z","birthtime":"2022-03-20T05:00:06.425Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-05-01 22:53:48,025 INFO 9284 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"G:\\DoraCMS\\app\\view\\xolo\\index.html","stat":{"dev":2088059281,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907380043,"size":57453,"blocks":120,"atimeMs":1651416827999.332,"mtimeMs":1651416827999.332,"ctimeMs":1651416827999.332,"birthtimeMs":1647752406424.76,"atime":"2022-05-01T14:53:47.999Z","mtime":"2022-05-01T14:53:47.999Z","ctime":"2022-05-01T14:53:47.999Z","birthtime":"2022-03-20T05:00:06.425Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-05-02 07:25:15,217 ERROR 9284 nodejs.ClusterClientNoResponseError: client no response in 28875185ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 9284
+hostname: BeiBei
+

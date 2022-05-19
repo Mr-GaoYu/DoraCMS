@@ -1,0 +1,36 @@
+2022-05-05 08:47:11,502 ERROR 25264 nodejs.ClusterClientNoResponseError: client no response in 399517ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 25264
+hostname: BeiBei
+
+2022-05-05 08:47:11,501 ERROR 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-05 13:43:38,819 ERROR 25264 nodejs.ClusterClientNoResponseError: client no response in 15669020ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 25264
+hostname: BeiBei
+
+2022-05-05 13:43:38,819 ERROR 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-05 17:05:23,990 ERROR 25264 nodejs.ClusterClientNoResponseError: client no response in 2361937ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 25264
+hostname: BeiBei
+
+2022-05-05 17:05:23,990 ERROR 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
+2022-05-05 20:26:10,508 ERROR 25264 nodejs.ClusterClientNoResponseError: client no response in 4705456ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (G:\DoraCMS\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 25264
+hostname: BeiBei
+
+2022-05-05 20:26:10,502 ERROR 25056 [egg-mongoose] mongodb://127.0.0.1:27017/doracms2 disconnected
