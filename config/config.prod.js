@@ -18,7 +18,7 @@ module.exports = (appInfo) => {
     },
     // mongodb相关路径
     mongodb: {
-      binPath: '/usr/local/mongodb/mongodb-linux-x86_64-ubuntu1604-4.0.0/bin/',
+      binPath: '/usr/local/mongodb/bin/',
       backUpPath: '/home/database/doracms/',
     },
     // 静态目录
@@ -29,14 +29,14 @@ module.exports = (appInfo) => {
         path.join(appInfo.baseDir, 'backstage/dist'),
         '/home/doraData/uploadFiles/static',
       ],
-      maxAge: 0,
+      maxAge: 31536000,
     },
     // 日志路径
     logger: {
       dir: '/home/doraData/logsdir/doracms',
     },
     // 服务地址配置
-    server_path: 'https://www.html-js.cn',
-    server_api: 'https://www.html-js.cn/api',
+    server_path: 'http://1.15.220.109:9090',
+    server_api: 'http://1.15.220.109:9090/api',
   };;
 };
